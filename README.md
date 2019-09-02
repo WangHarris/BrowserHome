@@ -1,3 +1,3 @@
 # Browser Home Page
-![](home.jpg)
+![](home.png)
 
