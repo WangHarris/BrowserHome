@@ -10,3 +10,7 @@
 	text-align: center;
 	width: 100%;
 }
+#wrapper>a>img
+{
+	width: 64;
+}
