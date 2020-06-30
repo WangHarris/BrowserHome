@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Home</title>
-    <link rel="icon" href="images/searching.png" type="image/x-icon"/>
-    <link href="css/home.css" rel="stylesheet" type="text/css" />
-    <link href="css/dock.css" rel="stylesheet" type="text/css" />  
+    <link rel="icon" href="assets/images/searching.png" type="image/x-icon"/>
+    <link href="assets/css/home.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/dock.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
   </head>
   <body>
     <div id="container">
@@ -18,63 +20,40 @@
     </div>
     <div id="wrapper">
       <a href="https://www.iconfont.cn" target="_blank">
-        <img src="images/iconfont.png" width="64" />
-      </a>
-      <a href="http://www.dilidili.name/" target="_blank">
-        <img src="images/dilidili.png" width="64" />
+        <img src="assets/images/iconfont.png" width="64" />
       </a>
       <a href="http://www.bilibili.com/" target="_blank">
-        <img src="images/bilibili.ico" width="64" />
-      </a>
-      <a href="http://www.iqiyi.com/" target="_blank">
-        <img src="images/iqiyi.png" width="64" />
-      </a>
-      <a href="https://v.qq.com/" target="_blank">
-        <img src="images/tengxun.png" width="64" />
-      </a>
-      <a href="https://www.youku.com/" target="_blank">
-        <img src="images/tudou.png" width="64" />
-      </a>
-      <a href="http://www.dytt8.net/" target="_blank">
-        <img src="images/dytt.png" width="64" />
+        <img src="assets/images/bilibili.ico" width="64" />
       </a>
       <a href="https://music.163.com/" target="_blank">
-        <img src="images/music.png" width="64" />
+        <img src="assets/images/music.png" width="64" />
       </a>
       <a href="https://www.tmall.com/" target="_blank">
-        <img src="images/tmall.ico" width="64" />
+        <img src="assets/images/tmall.ico" width="64" />
       </a>
       <a href="http://www.jd.com/" target="_blank">
-        <img src="images/jd.ico" width="64" />
-      </a>
-      <a href="http://www.iplaysoft.com/" target="_blank">
-        <img src="images/iplaysoft.ico" width="64" />
+        <img src="assets/images/jd.ico" width="64" />
       </a>
       <a href="https://mail.qq.com/" target="_blank">
-        <img src="images/email.png" width="64" />
-      </a>
-      <a href="http://www.w3school.com.cn/" target="_blank">
-        <img src="images/school.png" width="64" />
+        <img src="assets/images/email.png" width="64" />
       </a>
       <a href="https://github.com/" target="_blank">
-        <img src="images/github.ico" width="64" />
+        <img src="assets/images/github.ico" width="64" />
       </a>
       <a href="http://translate.google.cn/" target="_blank">
-        <img src="images/translate.ico" width="64" />
-      </a>
-      <a href="https://www.zhihu.com" target="_blank">
-        <img src="images/zhihu.png" width="64" />
+        <img src="assets/images/translate.ico" width="64" />
       </a>
     </div>
     
-    <video muted autoplay="autoplay" loop="loop">
-      <source src="videos/Redial2.mp4" type="video/mp4">
+    <video id="background" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}' muted autoplay="autoplay" loop="loop">
+      <source src="assets/videos/Redial2.m3u8" type="application/x-mpegURL">
       Your browser does not support the video tag.
     </video>
    
-    <script type="text/javascript" src="js/home.js">
-    </script>
-    <script type="text/javascript" src="js/dock.js">
-    </script>
+    <script type="text/javascript" src="assets/js/home.js"></script>
+    <script type="text/javascript" src="assets/js/dock.js"></script>
+
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
   </body>
 </html>
