@@ -39,7 +39,7 @@ body
   outline-offset: 0;
 }
 
-video
+#background
 {
   	width: 100%;
   	position: fixed;
